@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html, body{
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins',sans-serif;
+  color: #222;
+}
+.navrar{
+  padding: .8rem;
+}
+.navbar-nav li{
+  margin: 60px;
+
+}
+.nav-item img{
+margin-top: -20px;
+}
+
+
+#home{
+   background: url(img/background1.png) no-repeat center center fixed;
+   display: table;
+   height: 100%;
+   position: relative;
+   width:100%;
+   background-size: cover;
+
+}
+.landing-text{
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.landing-text h1{
+  font-family: 'Lobster';
+  font-size: 60px;
+  color:#fff;
+ }
+
+
+
+.btn-primary{
+  background-color: #cda628;
+  border: 1px solid #cda628;
+}
+.btn-primary:hover {
+  background-color: #ddc67d;
+  border: 1px solid #ddc67d;
+}
+
+footer{
+   background-color: #3f3f3f;
+   color: #d5d5d5;
+   /* padding-top: 2rem; */
+    height: 60px;
+    padding-top:0;
+    opacity: 0.9;
+}
+
+
+
+/* .infooter{
+  text-align: center;
+  background-color: #222222;
+  color: white;
+  padding-top:0;
+  font-family: 'Tinos', serif;
+
+
+} */
+
+
+/* .nav-link{
+   font-size: 1.1em !important;
+   color:#FFFFFF !important;
+} */
+/* .carousel-inner img{
+   width: 100%;
+   height: 100%;
+}
+.carousel-caption{
+   position: absolute;
+   top:50%;
+   transform: translateY(-50%);
+}
+.carousel-caption h1{
+  font-size: 500%;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 15px #000;
+}
+.carousel-caption h3{
+   font-size: 200%;
+   font-weight: 500;
+   text-shadow: 1px 1px 10px #000;
+   padding-bottom: 1rem;
+}
+.btn-primary{
+  background-color: #cda628;
+  border: 1px solid #cda628;
+}
+.btn-primary:hover {
+  background-color: #ddc67d;
+  border: 1px solid #ddc67d;
+}
+
+.padding{
+   padding-button: 2rem;
+} */

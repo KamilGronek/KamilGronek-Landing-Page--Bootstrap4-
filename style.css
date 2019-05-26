@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+html, body{
+  height: 100%;
+  width: 100%;
+}
+
+.navrar{
+  padding: .12rem;
+}
+
+.navbar-nav li{
+  margin-top: 30px;
+  padding: 30px;
+}
+
+.nav-item img{
+  margin-top: -20px;
+}
+
+#home{
+   background: url(img/background1.png) no-repeat center center fixed;
+   display: table;
+   height: 100%;
+   position: relative;
+   width:100%;
+   background-size: cover;
+}
+
+.landing-text{
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.landing-text h1{
+  font-family: 'Lobster';
+  font-size: 72px;
+  color:#fff;
+}
+
+.landing-text button{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 14px;
+}
+
+#exampleModalLabel{
+ font-family: 'Josefin Sans', sans-serif;
+}
+
+.btn-primary{
+  border: 1px solid #cda628;
+  background-image: linear-gradient(to right, #ffecd2 0%, #cda628 70%, #cda628 100%);
+  width: 265px;
+  height: 48px;
+  border-radius: 100px
+}
+
+.btn-primary:hover{
+  background-color: #ddc67d;
+  border: 1px solid #ddc67d;
+}
+
+.btn-second{
+  color:#FFF;
+  border: 1px solid #cda628;
+  background-image: linear-gradient(to right, #ffecd2 0%, #cda628 70%, #cda628 100%);
+  width: 200px;
+  border-radius: 100px
+}
+
+.btn-second:hover{
+  background-color: #ddc67d;
+  border: 1px solid #ddc67d;
+}
+
+.modal-content{
+  width: 367px;
+  height:342px;
+  margin: auto;
+  margin-top: 300px;
+  position: relative;
+}
+
+.modal-header{  
+	margin: auto;
+}
+
+.form-group {
+  padding-left: 60px;
+}
+
+hr.light{
+  border-top: 1px solid #d5d5d5;
+  width: 75%;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+}
+
+input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #000000;
+}
+
+footer{
+  background-color: #000000;
+  color: #d5d5d5;
+  padding-top: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+footer p{
+  font-size: 11px;
+}
+
+/*---Media Queries --*/
+@media (max-width: 1366px) {
+ .modal-content{
+    margin: auto;
+    margin-top: 200px;
+ }
+}
+
+@media (max-width: 1200px) {
+ .modal-content{
+    margin: auto;
+    margin-top: 500px;
+ }
+}
+
+@media (min-width: 768px) {
+ .navbar-brand.abs{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+ }
+}
+
+@media (max-width: 768px) {
+  .navbar-nav li{
+    padding: 20px;
+  }
+  .modal-content{
+    margin: auto;
+    margin-top: 300px;
+  }
+}
+
+@media (max-width: 544px) {
+  span .navbar-toggler-icon{
+    display: block;
+}
+.landing-text h1{
+  font-size: 32px;
+ }
+ .btn-primary{
+   width: 200px;
+   height: 48px;
+ }
+ .modal-content{
+   margin: auto;
+   margin-top: 140px;
+}
+
+@media (max-width: 375px){
+  .btn-primary{
+    width: 150px;
+    height: 38px;
+  }
+  .landing-text button{
+    font-size: 10px;
+   }
+   .modal-content{
+     margin: auto;
+     margin-top: 140px;
+ }
+}
+}
